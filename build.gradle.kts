@@ -12,14 +12,6 @@ repositories {
     mavenCentral()
 }
 
-sourceSets {
-    main {
-        java {
-//            srcDirs("build/generated-src/antlr")
-        }
-    }
-}
-
 dependencies {
     // https://mvnrepository.com/artifact/org.antlr/antlr4-runtime
     implementation("org.antlr:antlr4-runtime:4.12.0")
